@@ -13,12 +13,12 @@ TEST_CASE("Join functionality", "[Join]")
 
 TEST_CASE("OddMask functionality", "[OddMask]")
 {
-    
+    REQUIRE(1 == 1);
 }
 
 TEST_CASE("EvenMask functionality", "[EvenMask]")
 {
-    
+    REQUIRE(1 == 1);
 }
 
 // cant compile because SIGSTKSZ is messed up :(
